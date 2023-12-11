@@ -12,12 +12,14 @@
 
  :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
-  --background-color: #414141;
-  --overlay-background-color: #eee;
-  --highlight-background-color: #ccc;
-  --text-color: #000;
+  --link-color: #2dcefe;
+  --link-hover-color: #2da8ce;
+  --background-color: #17112c;
+  --backgorund-gradient1: #30cfd0 100%;
+  --backgorund-gradient2: #002e2e 0%;
+  --overlay-background-color: rgb(14, 1, 42);
+  --highlight-background-color: #422d88;
+  --text-color: rgb(230, 230, 230);
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -67,7 +69,7 @@ body {
   font-family: var(--body-font-family);
   line-height: 1.6;
   color: var(--text-color);
-  background-color: var(--background-color);
+  background-image: linear-gradient(to top, rgb(18, 13, 38)  0%, #2B4162 100%);
   display: none;
 }
 
