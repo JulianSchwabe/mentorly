@@ -192,8 +192,8 @@ button {
            0 0 4em 1em var(--glow-spread-color),
            inset 0 0 .75em .25em var(--glow-color);
     text-shadow: 0 0 .5em var(--glow-color);
-    position: relative;
-    margin-top: 40%;
+    position:fixed;
+    margin-top: 250px;
     left: 40%;
     transition: all 0.3s;
    }
